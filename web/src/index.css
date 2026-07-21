@@ -1,9 +1,83 @@
+/* Design tokens — "federal form, made fast."
+   Paper-stock ground, federal blue actions, rubber-stamp status colors.
+   Public Sans is the U.S. government web typeface (USWDS); IBM Plex Mono is
+   the typewriter register for extracted values, citations, and rule IDs.
+   Both are self-hosted: agency firewalls block CDN endpoints (SPEC §7.3). */
+
 :root {
-  font-family: system-ui, sans-serif;
-  line-height: 1.5;
-  color-scheme: light dark;
+  --paper: #fafaf7;
+  --card: #ffffff;
+  --ink: #21272a;
+  --muted: #5b6570;
+  --rule: #d9d9d1;
+  --rule-soft: #e8e8e2;
+
+  --federal: #0f4d8c;
+  --federal-dark: #0b3a6a;
+
+  --pass: #2e6b34;
+  --pass-tint: #eaf3ea;
+  --fail: #a61e2a;
+  --fail-tint: #f9ecec;
+  --review: #8a5a00;
+  --review-tint: #f8f1e2;
+  --na: #6b7280;
+  --na-tint: #f1f1ee;
+
+  --sans: 'Public Sans Variable', 'Public Sans', system-ui, sans-serif;
+  --mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+  --radius: 5px;
+  --shadow: 0 1px 2px rgba(33, 39, 42, 0.06), 0 2px 8px rgba(33, 39, 42, 0.05);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
 }
 
 body {
   margin: 0;
+  min-height: 100%;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  /* Agents skew older; start a notch larger than the browser default. */
+  font-size: 17px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid var(--federal);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }
