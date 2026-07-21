@@ -8,18 +8,25 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+
+	"ttb-label-verification/internal/batch"
+	"ttb-label-verification/internal/extraction"
 )
 
 type Server struct {
 	logger    *slog.Logger
 	staticDir string
+	extractor extraction.Extractor
+	batches   *batch.Manager
 	mux       *http.ServeMux
 }
 
-func NewServer(logger *slog.Logger, staticDir string) *Server {
+func NewServer(logger *slog.Logger, staticDir string, extractor extraction.Extractor, batches *batch.Manager) *Server {
 	s := &Server{
 		logger:    logger,
 		staticDir: staticDir,
+		extractor: extractor,
+		batches:   batches,
 		mux:       http.NewServeMux(),
 	}
 	s.routes()
@@ -28,6 +35,10 @@ func NewServer(logger *slog.Logger, staticDir string) *Server {
 
 func (s *Server) routes() {
 	s.mux.HandleFunc("GET /api/health", s.handleHealth)
+	s.mux.HandleFunc("POST /api/verify", s.handleVerify)
+	s.mux.HandleFunc("POST /api/batches", s.handleBatchSubmit)
+	s.mux.HandleFunc("GET /api/batches/{id}", s.handleBatchStatus)
+	s.mux.HandleFunc("GET /api/batches/{id}/items/{itemID}", s.handleBatchItem)
 	s.mux.HandleFunc("/", s.handleStatic)
 }
 

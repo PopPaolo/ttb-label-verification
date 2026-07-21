@@ -18,6 +18,8 @@ type Config struct {
 	ExtractionEffort string
 	// BatchWorkers bounds the batch worker pool (D7).
 	BatchWorkers int
+	// BatchTTL is how long finished batches stay in memory before eviction (D8).
+	BatchTTL time.Duration
 	// ExtractionTimeout caps a single extraction call (D13).
 	ExtractionTimeout time.Duration
 	// StaticDir is the directory of built frontend assets served by the binary (D1/D3).
@@ -31,6 +33,7 @@ func Load() Config {
 		Model:             getenv("EXTRACTION_MODEL", "claude-opus-4-8"),
 		ExtractionEffort:  getenv("EXTRACTION_EFFORT", "low"),
 		BatchWorkers:      getenvInt("BATCH_WORKERS", 8),
+		BatchTTL:          getenvDuration("BATCH_TTL", 2*time.Hour),
 		ExtractionTimeout: getenvDuration("EXTRACTION_TIMEOUT", 30*time.Second),
 		StaticDir:         getenv("STATIC_DIR", "web/dist"),
 	}

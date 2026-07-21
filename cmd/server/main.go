@@ -6,7 +6,9 @@ import (
 	"os"
 
 	"ttb-label-verification/internal/api"
+	"ttb-label-verification/internal/batch"
 	"ttb-label-verification/internal/config"
+	"ttb-label-verification/internal/extraction"
 )
 
 func main() {
@@ -17,7 +19,9 @@ func main() {
 		logger.Warn("ANTHROPIC_API_KEY is not set; extraction calls will fail")
 	}
 
-	srv := api.NewServer(logger, cfg.StaticDir)
+	extractor := extraction.NewClaudeExtractor(cfg.AnthropicAPIKey, cfg.Model, cfg.ExtractionEffort, cfg.ExtractionTimeout)
+	batches := batch.NewManager(extractor, logger, cfg.BatchWorkers, cfg.BatchTTL)
+	srv := api.NewServer(logger, cfg.StaticDir, extractor, batches)
 	logger.Info("starting server", "addr", cfg.Addr, "model", cfg.Model)
 	if err := http.ListenAndServe(cfg.Addr, srv); err != nil {
 		logger.Error("server exited", "error", err)
