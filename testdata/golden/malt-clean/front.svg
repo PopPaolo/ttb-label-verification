@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <rect width="1000" height="1000" fill="#eaf0f2"/>
+  <path d="M0 90 L1000 40 L1000 110 L0 160 Z" fill="#1c3d5a"/>
+  <path d="M0 890 L1000 840 L1000 910 L0 960 Z" fill="#1c3d5a"/>
+
+  <text x="500" y="280" font-family="Helvetica, Arial, sans-serif" font-size="66" font-weight="bold" fill="#1c3d5a" text-anchor="middle" letter-spacing="6">HARBOR LINE</text>
+
+  <text x="500" y="360" font-family="Helvetica, Arial, sans-serif" font-size="40" fill="#1c3d5a" text-anchor="middle" letter-spacing="12">LAGER</text>
+
+  <text x="500" y="450" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#1c3d5a" text-anchor="middle">4.8% ALC./VOL. &#183; 12 FL. OZ.</text>
+
+  <text x="500" y="530" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1c3d5a" text-anchor="middle">BREWED AND CANNED BY HARBOR LINE BREWING CO.,</text>
+  <text x="500" y="562" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1c3d5a" text-anchor="middle">SEATTLE, WA</text>
+
+  <rect x="70" y="610" width="860" height="240" fill="none" stroke="#1c3d5a" stroke-width="2"/>
+  <text x="95" y="658" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#1c3d5a">
+    <tspan x="95" dy="0"><tspan font-weight="bold">GOVERNMENT WARNING:</tspan> (1) According to the Surgeon</tspan>
+    <tspan x="95" dy="34">General, women should not drink alcoholic beverages</tspan>
+    <tspan x="95" dy="34">during pregnancy because of the risk of birth defects.</tspan>
+    <tspan x="95" dy="34">(2) Consumption of alcoholic beverages impairs your</tspan>
+    <tspan x="95" dy="34">ability to drive a car or operate machinery, and may</tspan>
+    <tspan x="95" dy="34">cause health problems.</tspan>
+  </text>
+</svg>

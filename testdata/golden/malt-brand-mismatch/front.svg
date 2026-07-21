@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <rect width="1000" height="1000" fill="#f2efe6"/>
+  <rect x="0" y="0" width="1000" height="130" fill="#3f6b3c"/>
+  <rect x="0" y="870" width="1000" height="130" fill="#3f6b3c"/>
+
+  <text x="500" y="260" font-family="Helvetica, Arial, sans-serif" font-size="66" font-weight="bold" fill="#2c3a2b" text-anchor="middle" letter-spacing="4">IRON MEADOW</text>
+
+  <line x1="300" y1="310" x2="700" y2="310" stroke="#3f6b3c" stroke-width="3"/>
+
+  <text x="500" y="380" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="#2c3a2b" text-anchor="middle" letter-spacing="4">INDIA PALE ALE</text>
+
+  <text x="500" y="460" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#2c3a2b" text-anchor="middle">6.5% ALC./VOL. &#183; 12 FL. OZ.</text>
+
+  <text x="500" y="540" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#2c3a2b" text-anchor="middle">BREWED AND BOTTLED BY MEADOW BREWING CO.,</text>
+  <text x="500" y="572" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#2c3a2b" text-anchor="middle">PORTLAND, OR</text>
+
+  <rect x="70" y="620" width="860" height="240" fill="none" stroke="#2c3a2b" stroke-width="2"/>
+  <text x="95" y="668" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#2c3a2b">
+    <tspan x="95" dy="0"><tspan font-weight="bold">GOVERNMENT WARNING:</tspan> (1) According to the Surgeon</tspan>
+    <tspan x="95" dy="34">General, women should not drink alcoholic beverages</tspan>
+    <tspan x="95" dy="34">during pregnancy because of the risk of birth defects.</tspan>
+    <tspan x="95" dy="34">(2) Consumption of alcoholic beverages impairs your</tspan>
+    <tspan x="95" dy="34">ability to drive a car or operate machinery, and may</tspan>
+    <tspan x="95" dy="34">cause health problems.</tspan>
+  </text>
+</svg>

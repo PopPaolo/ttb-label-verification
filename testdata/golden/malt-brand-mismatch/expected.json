@@ -1,0 +1,20 @@
+{
+  "overall": "fail",
+  "note": "Application declares the brand as Golden Meadow but the label reads IRON MEADOW \u2014 too far apart for a near-match, so a hard mismatch fail.",
+  "rules": {
+    "brand-name": "fail",
+    "class-type": "pass",
+    "net-contents": "pass",
+    "name-address": "pass",
+    "country-of-origin": "not_applicable",
+    "warning-present": "pass",
+    "warning-wording": "pass",
+    "warning-caps": "pass",
+    "warning-bold": "pass",
+    "warning-surgeon-general": "pass",
+    "warning-continuous": "pass",
+    "warning-separate": "pass",
+    "malt-abv": "pass",
+    "type-size": "manual"
+  }
+}

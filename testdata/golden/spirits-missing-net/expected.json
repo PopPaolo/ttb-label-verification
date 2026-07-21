@@ -1,0 +1,21 @@
+{
+  "overall": "fail",
+  "note": "Imported vodka with no net contents statement anywhere on the label \u2014 a mandatory item, so a hard fail. Also exercises the imports path: country of origin (Product of Sweden) and the Imported By address must pass.",
+  "rules": {
+    "brand-name": "pass",
+    "class-type": "pass",
+    "net-contents": "fail",
+    "name-address": "pass",
+    "country-of-origin": "pass",
+    "warning-present": "pass",
+    "warning-wording": "pass",
+    "warning-caps": "pass",
+    "warning-bold": "pass",
+    "warning-surgeon-general": "pass",
+    "warning-continuous": "pass",
+    "warning-separate": "pass",
+    "spirits-abv": "pass",
+    "spirits-field-of-vision": "manual",
+    "type-size": "manual"
+  }
+}

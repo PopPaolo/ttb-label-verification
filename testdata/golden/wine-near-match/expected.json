@@ -1,0 +1,24 @@
+{
+  "overall": "needs_review",
+  "note": "The label brand reads SLIVER CREEK CELLARS (transposed letters) while the application says Silver Creek Cellars \u2014 a near match the agent must judge, not a silent pass or hard fail.",
+  "rules": {
+    "brand-name": "needs_review",
+    "class-type": "pass",
+    "net-contents": "pass",
+    "name-address": "pass",
+    "country-of-origin": "not_applicable",
+    "warning-present": "pass",
+    "warning-wording": "pass",
+    "warning-caps": "pass",
+    "warning-bold": "pass",
+    "warning-surgeon-general": "pass",
+    "warning-continuous": "pass",
+    "warning-separate": "pass",
+    "wine-abv": "pass",
+    "wine-appellation": "not_applicable",
+    "wine-varietal": "pass",
+    "wine-vintage": "pass",
+    "wine-sulfites": "pass",
+    "type-size": "manual"
+  }
+}

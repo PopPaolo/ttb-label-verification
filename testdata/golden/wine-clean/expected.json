@@ -1,0 +1,24 @@
+{
+  "overall": "pass",
+  "note": "Clean label. Every automated check passes and the overall verdict is pass; the always-manual type-size row is surfaced as \"manual\" without gating the verdict.",
+  "rules": {
+    "brand-name": "pass",
+    "class-type": "pass",
+    "net-contents": "pass",
+    "name-address": "pass",
+    "country-of-origin": "not_applicable",
+    "warning-present": "pass",
+    "warning-wording": "pass",
+    "warning-caps": "pass",
+    "warning-bold": "pass",
+    "warning-surgeon-general": "pass",
+    "warning-continuous": "pass",
+    "warning-separate": "pass",
+    "wine-abv": "pass",
+    "wine-appellation": "pass",
+    "wine-varietal": "pass",
+    "wine-vintage": "pass",
+    "wine-sulfites": "pass",
+    "type-size": "manual"
+  }
+}

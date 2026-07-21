@@ -1,0 +1,11 @@
+{
+  "beverage_type": "wine",
+  "brand_name": "Silver Creek Cellars",
+  "class_type": "Chardonnay",
+  "alcohol_content": 13,
+  "net_contents": "750 mL",
+  "name_address": "Bottled by Silver Creek Cellars, Sonoma, CA",
+  "imported": false,
+  "varietals": ["Chardonnay"],
+  "vintage_date": "2022"
+}

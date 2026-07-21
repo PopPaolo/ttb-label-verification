@@ -1,0 +1,21 @@
+{
+  "overall": "fail",
+  "note": "The health warning drops the words 'a car' ('impairs your ability to drive or operate machinery'). Wording is an exact-tier check with no tolerance, so this is a hard fail even though everything else is clean.",
+  "rules": {
+    "brand-name": "pass",
+    "class-type": "pass",
+    "net-contents": "pass",
+    "name-address": "pass",
+    "country-of-origin": "not_applicable",
+    "warning-present": "pass",
+    "warning-wording": "fail",
+    "warning-caps": "pass",
+    "warning-bold": "pass",
+    "warning-surgeon-general": "pass",
+    "warning-continuous": "pass",
+    "warning-separate": "pass",
+    "spirits-abv": "pass",
+    "spirits-field-of-vision": "manual",
+    "type-size": "manual"
+  }
+}

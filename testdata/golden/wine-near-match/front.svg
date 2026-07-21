@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <rect width="1000" height="1000" fill="#f9f5ea"/>
+  <rect x="35" y="35" width="930" height="930" fill="none" stroke="#3c3527" stroke-width="2"/>
+
+  <text x="500" y="150" font-family="Georgia, serif" font-size="28" fill="#3c3527" text-anchor="middle" letter-spacing="6">2022</text>
+
+  <text x="500" y="260" font-family="Georgia, serif" font-size="58" font-weight="bold" fill="#3c3527" text-anchor="middle" letter-spacing="2">SLIVER CREEK CELLARS</text>
+
+  <line x1="320" y1="310" x2="680" y2="310" stroke="#3c3527" stroke-width="2"/>
+
+  <text x="500" y="380" font-family="Georgia, serif" font-size="36" fill="#3c3527" text-anchor="middle" letter-spacing="4">CHARDONNAY</text>
+
+  <text x="500" y="470" font-family="Georgia, serif" font-size="26" fill="#3c3527" text-anchor="middle">ALC. 13% BY VOL. &#183; 750 mL</text>
+
+  <text x="500" y="545" font-family="Georgia, serif" font-size="22" fill="#3c3527" text-anchor="middle">BOTTLED BY SILVER CREEK CELLARS, SONOMA, CA</text>
+  <text x="500" y="590" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#3c3527" text-anchor="middle">CONTAINS SULFITES</text>
+
+  <rect x="70" y="660" width="860" height="250" fill="none" stroke="#3c3527" stroke-width="2"/>
+  <text x="95" y="710" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#3c3527">
+    <tspan x="95" dy="0"><tspan font-weight="bold">GOVERNMENT WARNING:</tspan> (1) According to the Surgeon</tspan>
+    <tspan x="95" dy="34">General, women should not drink alcoholic beverages</tspan>
+    <tspan x="95" dy="34">during pregnancy because of the risk of birth defects.</tspan>
+    <tspan x="95" dy="34">(2) Consumption of alcoholic beverages impairs your</tspan>
+    <tspan x="95" dy="34">ability to drive a car or operate machinery, and may</tspan>
+    <tspan x="95" dy="34">cause health problems.</tspan>
+  </text>
+</svg>

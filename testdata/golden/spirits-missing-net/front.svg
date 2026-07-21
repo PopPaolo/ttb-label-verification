@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <rect width="1000" height="1000" fill="#e8eef2"/>
+  <rect x="35" y="35" width="930" height="930" fill="none" stroke="#14232e" stroke-width="2"/>
+
+  <text x="500" y="210" font-family="Helvetica, Arial, sans-serif" font-size="72" font-weight="bold" fill="#14232e" text-anchor="middle" letter-spacing="14">NORDVIK</text>
+
+  <line x1="330" y1="260" x2="670" y2="260" stroke="#14232e" stroke-width="2"/>
+
+  <text x="500" y="330" font-family="Helvetica, Arial, sans-serif" font-size="40" fill="#14232e" text-anchor="middle" letter-spacing="10">VODKA</text>
+  <text x="500" y="390" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#14232e" text-anchor="middle" letter-spacing="3">DISTILLED FROM WINTER WHEAT</text>
+
+  <text x="500" y="470" font-family="Helvetica, Arial, sans-serif" font-size="27" fill="#14232e" text-anchor="middle">40% ALC./VOL. (80 PROOF)</text>
+
+  <text x="500" y="550" font-family="Helvetica, Arial, sans-serif" font-size="25" fill="#14232e" text-anchor="middle" letter-spacing="2">PRODUCT OF SWEDEN</text>
+
+  <text x="500" y="610" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#14232e" text-anchor="middle">IMPORTED BY NORDVIK IMPORTS INC., NEW YORK, NY</text>
+
+  <rect x="70" y="680" width="860" height="250" fill="none" stroke="#14232e" stroke-width="2"/>
+  <text x="95" y="730" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#14232e">
+    <tspan x="95" dy="0"><tspan font-weight="bold">GOVERNMENT WARNING:</tspan> (1) According to the Surgeon</tspan>
+    <tspan x="95" dy="34">General, women should not drink alcoholic beverages</tspan>
+    <tspan x="95" dy="34">during pregnancy because of the risk of birth defects.</tspan>
+    <tspan x="95" dy="34">(2) Consumption of alcoholic beverages impairs your</tspan>
+    <tspan x="95" dy="34">ability to drive a car or operate machinery, and may</tspan>
+    <tspan x="95" dy="34">cause health problems.</tspan>
+  </text>
+</svg>

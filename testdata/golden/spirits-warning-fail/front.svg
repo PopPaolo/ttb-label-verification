@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <rect width="1000" height="1000" fill="#1e2a3a"/>
+  <rect x="35" y="35" width="930" height="930" fill="none" stroke="#c9a86a" stroke-width="3"/>
+
+  <text x="500" y="220" font-family="Georgia, serif" font-size="62" font-weight="bold" fill="#efe6d0" text-anchor="middle" letter-spacing="4">COPPER RIDGE</text>
+
+  <line x1="280" y1="270" x2="720" y2="270" stroke="#c9a86a" stroke-width="2"/>
+
+  <text x="500" y="330" font-family="Georgia, serif" font-size="30" fill="#efe6d0" text-anchor="middle" letter-spacing="2">KENTUCKY STRAIGHT</text>
+  <text x="500" y="375" font-family="Georgia, serif" font-size="30" fill="#efe6d0" text-anchor="middle" letter-spacing="2">BOURBON WHISKEY</text>
+
+  <text x="500" y="460" font-family="Georgia, serif" font-size="28" fill="#efe6d0" text-anchor="middle">45% ALC./VOL. (90 PROOF)</text>
+  <text x="500" y="505" font-family="Georgia, serif" font-size="26" fill="#efe6d0" text-anchor="middle">750 mL</text>
+
+  <text x="500" y="580" font-family="Georgia, serif" font-size="20" fill="#efe6d0" text-anchor="middle">DISTILLED AND BOTTLED BY COPPER RIDGE DISTILLING CO.,</text>
+  <text x="500" y="612" font-family="Georgia, serif" font-size="20" fill="#efe6d0" text-anchor="middle">BARDSTOWN, KY</text>
+
+  <rect x="70" y="680" width="860" height="250" fill="none" stroke="#efe6d0" stroke-width="2"/>
+  <text x="95" y="730" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#efe6d0">
+    <tspan x="95" dy="0"><tspan font-weight="bold">GOVERNMENT WARNING:</tspan> (1) According to the Surgeon</tspan>
+    <tspan x="95" dy="34">General, women should not drink alcoholic beverages</tspan>
+    <tspan x="95" dy="34">during pregnancy because of the risk of birth defects.</tspan>
+    <tspan x="95" dy="34">(2) Consumption of alcoholic beverages impairs your</tspan>
+    <tspan x="95" dy="34">ability to drive or operate machinery, and may cause</tspan>
+    <tspan x="95" dy="34">health problems.</tspan>
+  </text>
+</svg>

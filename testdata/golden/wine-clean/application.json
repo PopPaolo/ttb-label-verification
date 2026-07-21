@@ -1,0 +1,12 @@
+{
+  "beverage_type": "wine",
+  "brand_name": "Stone's Throw",
+  "class_type": "Cabernet Sauvignon",
+  "alcohol_content": 13.5,
+  "net_contents": "750 mL",
+  "name_address": "Bottled by Stone's Throw Vineyards, St. Helena, CA",
+  "imported": false,
+  "appellation": "Napa Valley",
+  "varietals": ["Cabernet Sauvignon"],
+  "vintage_date": "2023"
+}
